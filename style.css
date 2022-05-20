@@ -1,5 +1,5 @@
 h1 {
-    color: rgb(224, 232, 235);
+    color: rgb(246, 246, 247);
 }
 
 .first {
@@ -37,5 +37,28 @@ landing_text button a {
 }
 
 .landing_img img {
-    width: 75%;
+    width: 90%;
+}
+
+.second_sec {
+    width: 50%;
+}
+
+.second_sec img {
+    width: 40%;
+}
+
+.second {
+    display: flex;
+}
+
+.second_sec t {
+    width: 50%;
+}
+
+.second_sec t button {
+    background-color: tomato;
+    border-radius: 10px;
+    margin: 10px;
+    padding: 10px 20px;
 }
