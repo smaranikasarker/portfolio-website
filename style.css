@@ -1,3 +1,31 @@
+.navber {
+    background-color: rgb(9, 40, 59);
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+nav {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+}
+
+nav img {
+    width: 150px;
+    height: 100px;
+}
+
+nav ul li {
+    display: inline-block;
+    list-style: none;
+    padding: 20px;
+}
+
 h1 {
     color: rgb(246, 246, 247);
 }
@@ -25,6 +53,7 @@ section {
     border-radius: 10px;
     margin: 10px;
     padding: 10px 20px;
+    text-decoration: none;
 }
 
 landing_text button a {
@@ -61,4 +90,52 @@ landing_text button a {
     border-radius: 10px;
     margin: 10px;
     padding: 10px 20px;
+}
+
+.skill {
+    background-color: rgb(196, 202, 206);
+    color: rgb(5, 5, 5);
+    padding: 10px;
+    display: flex;
+}
+
+.skill_text h2 {
+    text-align: center;
+    color: black;
+    background-color: white;
+
+}
+
+.skill_img {
+    width: 21%;
+}
+
+.skill_img img {
+    width: 100%;
+}
+
+.skill_button {
+    background-color: white;
+    border-radius: 10px;
+    text-decoration: none;
+}
+
+.service {
+    display: flex;
+    background-color: rgb(224, 226, 228);
+    color: black;
+    padding: 10px;
+}
+
+.shadow {
+    box-shadow: 2px 3px 5px rgb(122, 122, 124);
+    width: 32%;
+    height: 2.5%;
+    padding: 10px;
+}
+
+.service_text h2 {
+    text-align: center;
+    color: black;
+    background-color: white;
 }
