@@ -108,6 +108,7 @@ landing_text button a {
 
 .skill_img {
     width: 21%;
+    margin: 10px;
 }
 
 .skill_img img {
@@ -128,9 +129,9 @@ landing_text button a {
 }
 
 .shadow {
-    box-shadow: 2px 3px 5px rgb(122, 122, 124);
-    width: 32%;
-    height: 2.5%;
+    box-shadow: 3px 3px 15px rgb(122, 122, 124);
+    width: 30%;
+    margin: 2.5%;
     padding: 10px;
 }
 
